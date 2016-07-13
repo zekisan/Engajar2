@@ -10,6 +10,9 @@
     "test-selenium": "karma start --single-run --browsers remote_chrome",
     "test-teamcity": "karma start --reporters teamcity --single-run --browsers remote_chrome --colors false"
   },
+  "engines": {
+    "node": "6.3.0"
+  },
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-eslint": "^6.1.0",
