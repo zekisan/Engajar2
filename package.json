@@ -2,7 +2,7 @@
   "name": "Engajar",
   "license": "UNLICENSED",
   "scripts": {
-    "webpack:deploy": "webpack --config=webpack.config.js -p",
+    "webpack:deploy": "webpack --config=/webpack.config.js -p",
     "heroku-postbuild": "npm run webpack:deploy",
     "start": "webpack --debug --output-pathinfo --display-reasons --colors -w --display-error-details",
     "build": "NODE_ENV=production ./bin/build_assets --bail",
