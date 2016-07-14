@@ -6641,3 +6641,11 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 98ms (Views: 94.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-07-13 21:25:00 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.slim within layouts/application
+  Rendered home/index.html.slim within layouts/application (90.0ms)
+  Rendered layouts/_navbar.html.slim (10.0ms)
+Completed 200 OK in 1241ms (Views: 1220.2ms | ActiveRecord: 0.0ms)
+
+
