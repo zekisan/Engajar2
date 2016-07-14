@@ -26,5 +26,6 @@ module Engajar
     end
 
     config.webpack = { use_manifest: false, asset_manifest: {}, common_manifest: {} }
+    config.serve_static_assets = true
   end
 end

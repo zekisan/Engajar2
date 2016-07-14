@@ -6617,3 +6617,27 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 444ms (Views: 362.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-07-13 21:00:11 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.slim within layouts/application
+  Rendered home/index.html.slim within layouts/application (86.3ms)
+  Rendered layouts/_navbar.html.slim (9.5ms)
+Completed 200 OK in 3771ms (Views: 3749.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-13 21:07:54 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.slim within layouts/application
+  Rendered home/index.html.slim within layouts/application (89.3ms)
+  Rendered layouts/_navbar.html.slim (7.9ms)
+Completed 200 OK in 1220ms (Views: 1194.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-13 21:07:58 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.slim within layouts/application
+  Rendered home/index.html.slim within layouts/application (72.1ms)
+  Rendered layouts/_navbar.html.slim (9.7ms)
+Completed 200 OK in 98ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
